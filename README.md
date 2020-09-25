@@ -6,6 +6,6 @@ Dark mode can be enabled.
 
 Many other features like weather info coming in future.
 
-You can see the clock [here]()
+You can see the clock [here](https://manojboganadham.github.io/DigitalClock/clock)
 
 Project maintained by [Manoj Boganadham](https://github.com/ManojBoganadham)
