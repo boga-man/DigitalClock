@@ -1,0 +1,103 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fffaf0;
+    color: #280044;
+    font-family: comfortaa;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+div{ 
+    display: inline-block;
+    font-size: inherit;
+}
+
+#container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+#clock{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    align-items: baseline;
+}
+
+#calender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    padding: 0px 3%;
+}
+
+#clock div{
+    padding: 2px;
+    align-content: center;
+    text-align: center;
+}
+
+#calender div{
+    margin: 2px;
+    padding: 1px;
+    align-content: center;
+    text-align: center;
+}
+
+#hrs, #min{
+    font-size: 9em;
+    font-weight: 700;
+    width: 180px;
+    /* background: gray; */
+}
+
+#sec{
+    font-size: 2em;
+    font-weight: 400;
+    width: 40px;
+    /* background: gray; */
+}
+
+#ampm{
+    display: none;
+}
+
+#day, #date, #month{
+    padding-right: 2%;
+}
+
+#buttons{
+    /* float: right; */
+    display: block;
+    font-size: 0.5em;
+    width: 10%;
+    margin: 0px auto;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#dark_mode{
+    cursor: pointer;
+    padding: 5px;
+}
+
+#format{
+    cursor: pointer;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+
+
+
